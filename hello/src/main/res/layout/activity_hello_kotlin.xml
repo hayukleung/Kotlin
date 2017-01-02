@@ -16,11 +16,27 @@
       android:id="@+id/name"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_centerInParent="true"
+      android:layout_centerHorizontal="true"
       android:gravity="center"
       android:textColor="@android:color/holo_green_dark"
       android:textSize="18sp"
       android:textStyle="bold"
+      />
+
+  <Button
+      android:id="@+id/action"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/name"
+      android:text="toast"
+      />
+
+  <Button
+      android:id="@+id/second"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/action"
+      android:text="go second"
       />
 
 </RelativeLayout>
